@@ -1,0 +1,765 @@
+  /*
+	---------------------------------------------------
+	
+	         Custom Styles for Smaller Devices
+
+	---------------------------------------------------
+*/
+
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 1240px) and (max-width: 1410px) {
+/*-----------------------------------------------------------------------------
+----------------------------- 1 - Layout --------------------------------------
+-----------------------------------------------------------------------------*/
+/* - Header - */
+header div.wrap            { width: 1240px; }
+
+/* - Layout content - */
+.wrap-fullwidth            { width: 1240px; }
+body.page-template-template-full-width .wrap-fullwidth { width: 1180px;}
+
+/* - page-content - */
+.wrap-middle               { width: 1240px; }
+.wrap-content              { width: 910px; }
+.default-page-content      { width: 850px; }
+
+/* - single-content - */
+.single-content            { width: 720px; }
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 3 - Home Content --------------------------------
+-----------------------------------------------------------------------------*/
+/* ##### Modern Articles ############# 
+################################### */
+ul.modern-articles      { width: 935px; /* 930px from .wrap-content + 25px */ }
+
+/* ###### Home 4 ###### 
+################################### */
+ul.home4                { width: 935px; /* 930px from .wrap-content + 25px */}
+
+/* ###### Home 5 ###### 
+################################### */
+ul.home5                { width: 935px; /* 930px from .wrap-content + 25px */ }
+ul.home5 li div.h-title { width: 180px; }
+
+/* ###### Home 7 ###### 
+################################### */
+ul.home7             { width: 935px; /* 930px from .wrap-content + 25px */ }
+
+/* ###### Home 8 ###### 
+################################### */
+ul.home8             { width: 935px; /* 930px from .wrap-content + 25px */ }
+ul.home8 li h2       { max-width: 145px; }
+
+/* ###### Home 9 ###### 
+################################### */
+ul.home9             { width: 935px; /* 930px from .wrap-content + 25px */ }
+
+/*-----------------------------------------------------------------------------
+----------------------------- 4 - Entry Content -------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Single Gallery -- */
+.single-gallery img        { width: 165px; height: 165px; }
+
+
+/*-----------------------------------------------------------------------------
+------------------------------ 9 - Footer -------------------------------------
+-----------------------------------------------------------------------------*/
+footer div.wrap               { width: 1240px; }
+
+}
+
+
+
+
+
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 1004px) and (max-width: 1238px) {
+/*-----------------------------------------------------------------------------
+----------------------------- 1 - Layout --------------------------------------
+-----------------------------------------------------------------------------*/
+/* - Header - */
+header div.wrap            { width: 1000px; }
+
+/* - Layout content - */
+.wrap-fullwidth            { width: 1000px; }
+body.page-template-template-full-width .wrap-fullwidth { width: 940px;}
+
+/* - page-content - */
+.wrap-middle               { width: 1000px; }
+.wrap-content              { width: 670px; }
+.default-page-content      { width: 610px; }
+
+/* - single-content - */
+.single-content            { width: 480px; }
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 2 - Header --------------------------------------
+-----------------------------------------------------------------------------*/
+ /* -- Top social icons -- */
+ul.top-social              { display: none;}
+
+/* ##### Featured Articles 2 ##### 
+############################### */
+.featured-articles-overlay-content, 
+.featured-articles-overlay-wrap    { min-height: 390px; }
+
+ 
+/*-----------------------------------------------------------------------------
+----------------------------- 3 - Home Content --------------------------------
+-----------------------------------------------------------------------------*/
+/* ##### Modern Articles ############# 
+################################### */
+ul.modern-articles      { width: 695px; /* 670px from .wrap-content + 25px */ }
+ul.modern-articles li   { float: left; width: 30%; height: auto; border-radius: 2px; height: auto; margin: 0 0 3.33% 3.33%;}          
+ul.modern-articles li .box-image   { width: 100%; height: auto; display: block;}
+ul.modern-articles li .box-image img { width: 100%; height: auto;}
+
+/* ###### Home 4 ###### 
+################################### */
+ul.home4      			{ width: 695px; /* 670px from .wrap-content + 25px */ }
+ul.home4 li             { float: left; width: 30%; margin: 0 0 5% 3.33%;}
+
+/* ###### Home 5 ###### 
+################################### */
+ul.home5                { width: 695px; /* 670px from .wrap-content + 25px */ }
+ul.home5 li             { float: left; width: 47%; height: auto; border-radius: 2px; height: auto; margin: 0 0 4% 3%; }
+ul.home5 li div.h-title { width: 195px; }
+
+/* ###### Home 7 ###### 
+################################### */
+ul.home7             { width: 695px; /* 670px from .wrap-content + 25px */ }
+ul.home7 li          { float: left; width: 22.5%; height: auto; margin: 0 0 2.5% 2.5%;}
+
+/* ###### Home 8 ###### 
+################################### */
+ul.home8             { width: 695px; /* 670px from .wrap-content + 25px */ }
+ul.home8 li          { float: left; width: 22.5%; height: auto; margin: 0 0 2.5% 2.5%; }
+ul.home8 li h2       { max-width: 115px; margin: 10px 0 0 10px; }
+
+
+/* ###### Home 9 ###### 
+################################### */
+ul.home9             { width: 695px; /* 670px from .wrap-content + 25px */ }
+ul.home9 li          { float: left; width: 30.0%; height: auto; margin: 0 0 3.33% 3.33%; }
+
+/*-----------------------------------------------------------------------------
+----------------------------- 4 - Entry Content -------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Single Gallery -- */
+.single-gallery img        { width: 140px; height: 140px; }
+
+
+/*-----------------------------------------------------------------------------
+------------------------------ 9 - Footer -------------------------------------
+-----------------------------------------------------------------------------*/
+footer div.wrap               { width: 1000px; }
+
+}
+
+
+
+
+
+
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 760px) and (max-width: 1000px) {
+/*-----------------------------------------------------------------------------
+----------------------------- 1 - Layout --------------------------------------
+-----------------------------------------------------------------------------*/
+/* - Header - */
+header div.wrap            { width: 750px; }
+
+/* - Layout content - */
+.wrap-fullwidth            { width: 750px; }
+body.page-template-template-full-width .wrap-fullwidth { width: 690px;}
+
+/* - page-content - */
+.wrap-middle               { width: 750px; margin: 50px auto 0 auto;  }
+.wrap-content              { width: 750px; }
+.default-page-content      { width: 690px; }
+
+/* - single-content - */
+.single-content            { width: 750px; }
+
+/* - sidebar - */
+.sidebar-wrapper           { clear: both;}
+#sidebar                   { width: 750px; background-color: #FFF; float: none; margin: 0 auto 30px auto; padding: 30px 0 10px 0; border-bottom: 1px solid #dfdfdf; -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.1); box-shadow: 0 1px 4px rgba(0,0,0,0.1);  }
+#sidebar.sb-right          { float: none;}
+#small-sidebar             { display: none;}
+#sidebar .widget           { width: 300px; margin-left: auto; margin-right: auto;}
+/* -- Comments -- */
+#comments                  { margin-bottom: 30px; /* for sidebar */}
+
+/*-----------------------------------------------------------------------------
+----------------------------- 2 - Header --------------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Logo -- */
+.logo                      { margin-left: 15px;}
+
+/* -- Categories in 4 columns -- */
+ul.cat-4cols { width: 750px; }
+ul.cat-4cols li { line-height: 15px;} 
+ul.cat-4cols li span { display: block; margin-bottom: 10px; }
+ 
+/* -- Sticky Header -- */
+header .stickytop          { display: none;} 
+
+/* -- Top Header Menu --
+##################### */
+.nav-showcase_wp { display: none; } 
+/* -- Responsive Menu -- */
+.nav-showcase_wp.mobile { display: block; }
+
+ /* -- Top social icons -- */
+ul.top-social              { margin-right: 50px;}
+
+/* ##### Featured Articles 2 ##### 
+############################### */
+.featured-articles-overlay-content, 
+.featured-articles-overlay-wrap    { min-height: 370px; }
+ul#featured-articles li            { float: left; width: 46%; height: auto; margin: 0 2% 2% 2%; }
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 3 - Home Content --------------------------------
+-----------------------------------------------------------------------------*/
+/* ##### Modern Articles ############# 
+################################### */
+ul.modern-articles      { width: 775px; /* 750px from .wrap-content + 25px */ }
+ul.modern-articles li   { float: left; width: 30%; height: auto; border-radius: 2px; height: auto; margin: 0 0 3.33% 3.33%;}          
+ul.modern-articles li .box-image   { width: 100%; height: auto; display: block;}
+ul.modern-articles li .box-image img { width: 100%; height: auto;}
+
+/* ###### Home 4 ###### 
+################################### */
+ul.home4      { width: 775px; /* 750px from .wrap-content + 25px */ }
+ul.home4 li   { float: left; width: 30%; margin: 0 0 5% 3.33%;}  
+
+/* ###### Home 5 ###### 
+################################### */
+ul.home5                { width: 775px; /* 750px from .wrap-content + 25px */ }
+ul.home5 li             { float: left; width: 47%; height: auto; border-radius: 2px; height: auto; margin: 0 0 3% 3%; }
+ul.home5 li div.h-title { width: 230px; }
+
+/* ###### Home 7 ###### 
+################################### */
+ul.home7             { width: 775px; /* 750px from .wrap-content + 25px */ }
+ul.home7 li          { float: left; width: 22.5%; height: auto; margin: 0 0 2.5% 2.5%; }
+
+/* ###### Home 8 ###### 
+################################### */
+ul.home8             { width: 775px; /* 750px from .wrap-content + 25px */ }
+ul.home8 li          { float: left; width: 22.5%; height: auto; margin: 0 0 2.5% 2.5%; }
+ul.home8 li h2       { max-width: 135px; margin: 10px 0 0 10px; }
+
+/* ###### Home 9 ###### 
+################################### */
+ul.home9             { width: 775px; /* 750px from .wrap-content + 25px */ }
+ul.home9 li          { float: left; width: 30%; height: auto; margin: 0 0 3.33% 3.33%; }
+
+/* -- Pagination -- */
+.wp-pagenavi                      { margin-bottom: 30px; }
+
+/*-----------------------------------------------------------------------------
+----------------------------- 4 - Entry Content -------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Single Gallery -- */
+.single-gallery img        { width: 172.5px; height: 172.5px; }
+
+
+/*-----------------------------------------------------------------------------
+------------------------------ 9 - Footer -------------------------------------
+-----------------------------------------------------------------------------*/
+footer div.wrap               { width: 750px; }
+
+/* -- Footer Columns -- */
+.footer_4col, .footer_4col_last       { float:left; width:46%; margin-bottom:20px; margin-right:4%; }
+.footer_4col_last                     { margin-right:0;}
+
+/* -- Footer Articles -- */
+ul.footer-posts li        { width:46%; margin-bottom:20px; margin-right:4%;}
+
+/* -- Footer Social Icons -- */
+ul.footer-social li span      { display: none;}
+
+}
+
+
+
+
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 580px) and (max-width: 760px) {
+/*-----------------------------------------------------------------------------
+----------------------------- 1 - Layout --------------------------------------
+-----------------------------------------------------------------------------*/
+/* - Header - */
+header div.wrap            { width: 570px; }
+ 
+/* - Layout content - */
+.wrap-fullwidth            { width: 570px; }
+body.page-template-template-full-width .wrap-fullwidth { width: 510px;}
+
+/* - page-content - */
+.wrap-middle               { width: 570px; margin: 50px auto 0 auto; }
+.wrap-content              { width: 570px; }
+.default-page-content      { width: 510px; }
+
+/* - single-content - */
+.single-content            { width: 570px; }
+
+/* - sidebar - */
+.sidebar-wrapper           { clear: both;}
+#sidebar                   { width: 570px; background-color: #FFF; float: none; margin: 0 auto 30px auto; padding: 30px 0 10px 0; border-bottom: 1px solid #dfdfdf; -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.1); box-shadow: 0 1px 4px rgba(0,0,0,0.1);  }
+#sidebar.sb-right          { float: none;}
+#small-sidebar             { display: none;}
+#sidebar .widget           { width: 300px; margin-left: auto; margin-right: auto;}
+/* -- Comments -- */
+#comments                  { margin-bottom: 30px; /* for sidebar */}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 2 - Header --------------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Logo -- */
+.logo                      { margin-left: 15px;}
+
+/* -- Categories in 4 columns -- */
+ul.cat-4cols { width: 570px; }
+ul.cat-4cols li { width:29.33%;  margin-left:3%; line-height: 15px;} 
+ul.cat-4cols li span { display: block; margin-bottom: 10px; }
+
+/* -- Sticky Header -- */
+header .stickytop          { display: none;} 
+
+/* -- Top Header Menu --
+##################### */
+.nav-showcase_wp { display: none; } 
+/* -- Responsive Menu -- */
+.nav-showcase_wp.mobile { display: block; }
+
+ /* -- Top social icons -- */
+ul.top-social              { margin-right: 50px;}
+
+/* ##### Featured Articles 2 ##### 
+############################### */
+.featured-articles-overlay-content, 
+.featured-articles-overlay-wrap    { min-height: 370px; }
+ul#featured-articles li            { float: left; width: 46%; height: auto; margin: 0 2% 2% 2%; }
+
+ 
+/*-----------------------------------------------------------------------------
+----------------------------- 3 - Home Content --------------------------------
+-----------------------------------------------------------------------------*/
+/* ##### Modern Articles ############# 
+################################### */
+ul.modern-articles      { width: 595px; /* 570px from .wrap-content + 25px */ }
+ul.modern-articles li   { float: left; width: 30%; height: auto; border-radius: 2px; height: auto; margin: 0 0 3.33% 3.33%;}          
+ul.modern-articles li .box-image   { width: 100%; height: auto; display: block;}
+ul.modern-articles li .box-image img { width: 100%; height: auto;}
+
+/* ###### Home 4 ###### 
+################################### */
+ul.home4      { width: 595px; /* 570px from .wrap-content + 25px */ }
+ul.home4 li   { float: left; width: 30%; margin: 0 0 5% 3.33%;} 
+
+/* ###### Home 5 ###### 
+################################### */
+ul.home5                { width: 595px; /* 570px from .wrap-content + 25px */ }
+ul.home5 li             { float: left; width: 47%; height: auto; border-radius: 2px; height: auto; margin: 0 0 3% 3%; }
+ul.home5 li div.h-title { width: 165px; }
+
+/* ###### Home 7 ###### 
+################################### */
+ul.home7             { width: 595px; /* 570px from .wrap-content + 25px */ }
+ul.home7 li          { float: left; width: 30%; height: auto; margin: 0 0 3.33% 3.33%; }
+
+/* ###### Home 8 ###### 
+################################### */
+ul.home8             { width: 595px; /* 570px from .wrap-content + 25px */ }
+ul.home8 li          { float: left; width: 30%; height: auto; margin: 0 0 3.33% 3.33%; }
+ul.home8 li h2       { max-width: 135px; margin: 10px 0 0 10px; }
+
+/* ###### Home 9 ###### 
+################################### */
+ul.home9             { width: 595px; /* 570px from .wrap-content + 25px */}
+ul.home9 li          { float: left; width: 30%; height: auto; margin: 0 0 3.33% 3.33%; }
+
+/* -- Pagination -- */
+.wp-pagenavi                      { margin-bottom: 30px; }
+
+/*-----------------------------------------------------------------------------
+----------------------------- 4 - Entry Content -------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Single Gallery -- */
+.single-gallery img        { width: 170px; height: 170px; }
+
+
+/*-----------------------------------------------------------------------------
+------------------------------ 9 - Footer -------------------------------------
+-----------------------------------------------------------------------------*/
+footer div.wrap               { width: 570px; }
+
+/* -- Footer Columns -- */
+.footer_4col, .footer_4col_last       { float:left; width:46%; margin-bottom:20px; margin-right:4%; }
+.footer_4col_last                     { margin-right:0;}
+
+/* -- Footer Articles -- */
+ul.footer-posts li        { width:46%; margin-bottom:20px; margin-right:4%;}
+
+/* -- Footer Social Icons -- */
+ul.footer-social li span      { display: none;}
+
+}
+
+
+
+
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 580px) {
+/*-----------------------------------------------------------------------------
+----------------------------- 1 - Layout --------------------------------------
+-----------------------------------------------------------------------------*/
+/* - Header - */
+header div.wrap            { width: 460px; }
+ 
+/* - Layout content - */
+.wrap-fullwidth            { width: 460px; }
+body.page-template-template-full-width .wrap-fullwidth { width: 400px;}
+
+/* - page-content - */
+.wrap-middle               { width: 460px; margin: 50px auto 0 auto;}
+.wrap-content              { width: 460px; }
+.default-page-content      { width: 400px; }
+
+/* - single-content - */
+.single-content            { width: 460px; }
+
+/* - sidebar - */
+.sidebar-wrapper           { clear: both;}
+#sidebar                   { width: 460px; background-color: #FFF; float: none; margin: 0 auto 30px auto; padding: 30px 0 10px 0; border-bottom: 1px solid #dfdfdf; -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.1); box-shadow: 0 1px 4px rgba(0,0,0,0.1);  }
+#sidebar.sb-right          { float: none;}
+#small-sidebar             { display: none;}
+#sidebar .widget           { width: 300px; margin-left: auto; margin-right: auto;}
+/* -- Comments -- */
+#comments                  { margin-bottom: 30px; /* for sidebar */}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 2 - Header --------------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Logo -- */
+.logo                      { margin-left: 15px;}
+
+/* -- Sub Header Search -- */
+.front-overlay-content #searchform2               { width: 400px; }
+.front-overlay-content #searchform2 #s            { width: 358px; }
+/* -- Live Search -- */
+ul.dwls_search_results     { width: 403px !important; }
+ul.search_results li.post_with_thumb a { width: 250px !important; }
+
+/* -- Categories in 4 columns -- */
+ul.cat-4cols { width: 460px; }
+ul.cat-4cols li { width:40%;  margin-left:5%; line-height: 15px;} 
+ul.cat-4cols li span { display: block; margin-bottom: 10px; }
+
+/* -- Top Header Menu --
+##################### */
+.nav-showcase_wp { display: none; } 
+/* -- Responsive Menu -- */
+.nav-showcase_wp.mobile { max-width: 100%; display: block; }
+ 
+/* -- Sticky Header -- */
+header .stickytop          { display: none;} 
+
+ /* -- Top social icons -- */
+ul.top-social              { margin-right: 50px;}
+
+/* ##### Featured Articles 2 ##### 
+############################### */
+.featured-articles-overlay-content, 
+.featured-articles-overlay-wrap    { min-height: 370px; }
+ul#featured-articles li            { float: left; width: 46%; height: auto; margin: 0 2% 2% 2%; }
+
+ 
+/*-----------------------------------------------------------------------------
+----------------------------- 3 - Home Content --------------------------------
+-----------------------------------------------------------------------------*/
+/* ##### Modern Articles ############# 
+################################### */
+ul.modern-articles      { width: 485px; /* 560px from .wrap-content + 25px */ }
+ul.modern-articles li   { float: left; width: 45%; height: auto; border-radius: 2px; height: auto; margin: 0 0 5% 5%;}          
+ul.modern-articles li .box-image   { width: 100%; height: auto; display: block;}
+ul.modern-articles li .box-image img { width: 100%; height: auto;}
+
+/* ###### Home 4 ###### 
+################################### */
+ul.home4      { width: 485px; /* 560px from .wrap-content + 25px */ }
+ul.home4 li   { float: left; width: 45%; margin: 0 0 5% 5%;} 
+
+/* ###### Home 5 ###### 
+################################### */
+ul.home5                { width: 485px; /* 560px from .wrap-content + 25px */ }
+ul.home5 li             { float: left; width: 45%; height: auto; border-radius: 2px; height: auto; margin: 0 0 5% 5%; }
+ul.home5 li div.h-title { width: 98%; }
+ul.home5 li .home-data  { display: none;}
+
+/* ###### Home 7 ###### 
+################################### */
+ul.home7             { width: 485px; /* 560px from .wrap-content + 25px */ }
+ul.home7 li          { float: left; width: 30%; height: auto; margin: 0 0 3.33% 3.33%; }
+
+/* ###### Home 8 ###### 
+################################### */
+ul.home8             { width: 485px; /* 570px from .wrap-content + 25px */ }
+ul.home8 li          { float: left; width: 30%; height: auto; margin: 0 0 3.33% 3.33%; }
+ul.home8 li h2       { max-width: 105px; margin: 10px 0 0 10px; }
+
+/* ###### Home 9 ###### 
+################################### */
+ul.home9             { width: 485px; /* 570px from .wrap-content + 25px */ }
+ul.home9 li          { float: left; width: 30%; height: auto; margin: 0 0 3.33% 3.33%; }
+
+/* -- Pagination -- */
+.wp-pagenavi                      { margin-bottom: 30px; }
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 4 - Entry Content -------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Single Gallery -- */
+.single-gallery img        { width: 200px; height: 200px; }
+
+/* -- Single Share -- */
+#single-share  { width:100%;  height: auto; float: none; position: fixed; bottom: 0; top: inherit; }
+#single-share a { width:20%; float: left; display: block; border-radius: 0px !important;}
+#single-share a:hover { width:20%; opacity: 0.95; border-left: none;}
+
+
+/*-----------------------------------------------------------------------------
+------------------------------ 9 - Footer -------------------------------------
+-----------------------------------------------------------------------------*/
+footer div.wrap               { width: 460px; }
+.footer-navigation            { width: 100%; min-height: 80px; max-height: auto; }
+
+/* -- Footer Columns -- */
+.footer_1col_half, .footer_1col_last  { float:left;width:44%; margin-bottom:10px; margin-left: 2.5%; margin-right:7%; }
+.footer_1col_last                     { margin-right: 2.5%; margin-left: 0; } 
+.footer_4col, .footer_4col_last       { float:left; width:96%; margin-bottom:20px; margin-right:0%; }
+.footer_4col_last                     { margin-right:0;}
+
+/* -- Footer Articles -- */
+ul.footer-posts li        { width:100%; margin-bottom:20px; margin-right:0%;}
+
+/* - Copyright - */
+.copyright                 { margin-left: 10px;}
+.copyright_right           { float: left; margin-top: 5px; margin-left: 10px; }
+
+/* -- Footer Social Icons -- */
+ul.footer-social li span      { display: none;}
+
+/* -- Back to Top -- */
+#back-top                     { bottom: 50px; }
+
+}
+
+
+
+
+
+
+
+
+
+/* All Mobile Size (devices) */
+@media only screen and (max-width: 479px) { 
+/*-----------------------------------------------------------------------------
+----------------------------- 1 - Layout --------------------------------------
+-----------------------------------------------------------------------------*/
+/* - Header - */
+header div.wrap            { width: 98%; }
+ 
+/* - Layout content - */
+.wrap-fullwidth            { max-width: 98%; min-width: 300px; }
+body.page-template-template-full-width .wrap-fullwidth  { width: 88%; padding: 30px 5% 20px 5%; }
+
+/* - page-content - */
+.wrap-middle               { max-width: 98%; min-width: 300px; margin: 50px auto 0 auto;  }
+.wrap-content              { width: 98%; float: none; margin-left: auto; margin-right: auto; }
+.default-page-content      { width: 88%; padding: 30px 5% 20px 5%; float: none; margin-left: auto; margin-right: auto; }
+
+/* - single-content - */
+.single-content            { width: 98%; float: none; margin-left: auto; margin-right: auto; }
+
+/* - sidebar - */
+.sidebar-wrapper           { clear: both;}
+#sidebar                   { width: 100%; background-color: #FFF; float: none; margin: 0 auto 30px auto; padding: 30px 0 10px 0; border-bottom: 1px solid #dfdfdf; -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.1); box-shadow: 0 1px 4px rgba(0,0,0,0.1);  }
+#sidebar.sb-right          { float: none;}
+#small-sidebar             { display: none;}
+#sidebar .widget           { max-width: 300px; margin-left: auto; margin-right: auto;}
+/* -- Comments -- */
+#comments                  { margin-bottom: 30px; /* for sidebar */}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 2 - Header --------------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Logo -- */
+.logo                      { margin-left: 15px;} 
+/* -- Sub Header -- */
+.front-overlay-wrap h1     { font-size: 20px; padding-left: 20px; padding-right: 20px; line-height: 30px; word-spacing:4px; }
+/* -- Sub Header Search -- */
+.front-overlay-content #searchform2               { width: 270px; }
+.front-overlay-content #searchform2 #s            { width: 228px; }
+/* -- Live Search -- */
+ul.dwls_search_results     { width: 273px !important; }
+ul.search_results li.post_with_thumb a { width: 170px !important; }
+
+/* -- Categories in 4 columns -- */
+ul.cat-4cols { width: 98%; }
+ul.cat-4cols li { width:45%;  margin-left:5%; line-height: 15px;} 
+ul.cat-4cols li span { display: block; margin-bottom: 10px; }
+
+/* -- Sticky Header -- */
+header .stickytop          { display: none;} 
+
+/* -- Top social icons -- */
+ul.top-social              { display: none;}
+
+/* -- Top Header Menu --
+##################### */
+.nav-showcase_wp { display: none; } 
+/* -- Responsive Menu -- */
+.nav-showcase_wp.mobile { max-width: 100%; display: block; }
+
+/* ##### Featured Articles 2 ##### 
+############################### */
+.featured-articles-overlay-content, 
+.featured-articles-overlay-wrap    { min-height: 370px; }
+ul#featured-articles li            { float: left; width: 46%; height: auto; margin: 0 2% 2% 2%; }
+
+ 
+/*-----------------------------------------------------------------------------
+----------------------------- 3 - Home Content --------------------------------
+-----------------------------------------------------------------------------*/
+/* ##### Modern Articles ############# 
+################################### */
+ul.modern-articles      { width: 100%; float: none; margin-left: auto; margin-right: auto; }
+ul.modern-articles li   { float: none; width: 100%; height: auto; border-radius: 2px; height: auto; margin: 0 auto 30px auto;}          
+ul.modern-articles li .box-image   { width: 100%; height: auto; display: block;}
+ul.modern-articles li .box-image img { width: 100%; height: auto;}
+
+/* ###### Home 4 ###### 
+################################### */
+ul.home4      { width: 100%; float: none; margin-left: auto; margin-right: auto; }
+ul.home4 li   { float: none; width: 100%; height: auto; margin: 0 auto 30px auto;}
+
+/* ###### Home 5 ###### 
+################################### */
+ul.home5                { width: 100%; float: none; margin-left: auto; margin-right: auto;}
+ul.home5 li             { float: none; width: 100%; height: auto; margin: 0 auto 30px auto !important; }
+ul.home5 li div.h-title { width: 98%; }
+ul.home5 li .home-data  { display: none;}
+
+/* ###### Home 7 ###### 
+################################### */
+ul.home7             { width: 100%; float: none; margin-left: auto; margin-right: auto; }
+ul.home7 li          { float: left; width: 50%; height: auto; margin: 0 0 0 0; }
+
+/* ###### Home 8 ###### 
+################################### */
+ul.home8             { width: 100%; float: none; margin-left: auto; margin-right: auto; }
+ul.home8 li          { float: left; width: 50%; height: auto; margin: 0 0 0 0; }
+ul.home8 li h2       { max-width: 110px; margin: 10px 0 0 10px; }
+
+/* ###### Home 9 ###### 
+################################### */
+ul.home9             { width: 100%; float: none; margin-left: auto; margin-right: auto; }
+ul.home9 li          { float: left; width: 47%; height: auto; margin: 0 1.5% 5% 1.5%; }
+
+/* -- Pagination -- */
+.wp-pagenavi                      { margin-bottom: 30px; }
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 4 - Entry Content -------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Single Gallery -- */
+.single-gallery img        { width: 50%; height: 50%; }
+
+/* -- Buttons  -- */
+.entry-buttons                { width: 100%; text-align: center; float: none; margin: 20px auto 10px auto; position: relative; }
+.entry-buttons a.button       { text-align: center; float: none; text-decoration: none; width: 100%; margin: 0 auto 10px auto; border-bottom: medium none; border-radius: 3px; font-size: 13px; letter-spacing: 1px; padding: 10px 0; text-transform: uppercase;  display: block; transition: all 0.2s ease-in-out; font-weight: 500; }
+.entry-buttons i              { font-size: 12px; margin-right: 5px; }
+.entry-buttons a.button:hover { opacity: 0.8;}
+.entry-buttons span           { font-family: 'Shadows Into Light', cursive;}
+
+/* -- Single Share -- */
+#single-share  { width:100%;  height: auto; float: none; position: fixed; bottom: 0; top: inherit; }
+#single-share a { width:20%; float: left; display: block; border-radius: 0px !important;}
+#single-share a:hover { width:20%; opacity: 0.95; border-left: none;}
+
+/* - featured img / videos - */
+.media-single-content div.meta-art a { display: none;}
+
+/* -- Related articles -- */
+ul.related-posts           { width: 100%; height: auto; float: left; margin-bottom: -10px; }
+ul.related-posts li        { width: 45%; height: auto; float: left; margin-right: 5%; margin-bottom: 20px; }
+
+/* -- Tabs -- */
+#tabs span                 { display: none; }
+
+/* -- About Author -- */
+.author-info               { width: auto; height: auto; margin: 5px 0 -15px 0;}
+
+/* -- Default Search -- */
+div.widget_search #searchform2 #s { width: 210px; }
+div.widget_search #searchform2 #s:focus { width: 210px; overflow: hidden;} 
+
+/*-----------------------------------------------------------------------------
+------------------------------ 9 - Footer -------------------------------------
+-----------------------------------------------------------------------------*/
+footer div.wrap               { width: 98%; }
+.footer-navigation            { width: 100%; min-height: 80px; max-height: auto; }
+
+/* -- Footer Columns -- */
+.footer_1col_half, .footer_1col_last  { float:left;width:44%; margin-bottom:10px; margin-left: 2.5%; margin-right:7%; }
+.footer_1col_last                     { margin-right: 2.5%; margin-left: 0; } 
+.footer_4col, .footer_4col_last       { float:left; width:94%; margin-bottom:20px; margin-right:0%; }
+.footer_4col_last                     { margin-right:0;}
+
+/* -- Footer Articles -- */
+ul.footer-posts li        { width:100%; margin-bottom:20px; margin-right:0%;}
+
+/* - Copyright - */
+.copyright                 { margin-left: 10px;}
+.copyright_right           { float: left; margin-top: 5px; margin-left: 10px; }
+
+/* -- Footer Social Icons -- */
+ul.footer-social li           { margin: 27px 3px 0 3px; }
+ul.footer-social li:hover     { opacity: 0.5;}
+ul.footer-social li a         { padding: 5px 8px; }
+ul.footer-social li span      { display: none;}
+
+/* -- Back to Top -- */
+#back-top                     { bottom: 50px; }
+
+/* -- Columns -- */
+.one_half, .one_half_last         { float:left;width:100%; margin-bottom:10px; margin-right:0; }
+.one_half_last                    { margin-right:0;}
+
+.one_third, .one_third_last       { float:left; width:100%; margin-bottom:10px; margin-right:0; }
+.one_third_last                   { margin-right:0;}
+
+.one_fourth, .one_fourth_last     { float:left; width:100%; margin-bottom:10px; margin-right:0; }
+.one_fourth_last                  { margin-right:0;}
+}

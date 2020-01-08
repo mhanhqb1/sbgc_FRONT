@@ -1,0 +1,377 @@
+/* ( default color ) ---------------------------------------------------------
+-----------------------------------------------------------------------------*/
+h1,h2,h3,h4,h5,h6          { color: #000;}
+code, pre                  { border: 1px solid #eae9e9; background-color: #FFF; -moz-box-shadow: 0 1px 10px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 10px rgba(0,0,0,0.1); box-shadow: 0 1px 10px rgba(0,0,0,0.1);}
+input, textarea, select    { border-left: 3px solid #43acc4; }
+
+/*-----------------------------------------------------------------------------
+----------------------------- 1 - Layout --------------------------------------
+-----------------------------------------------------------------------------*/
+a:link, a:visited          { color: #000; text-decoration: none; }
+a:hover                    { color: #43acc4; /* blue color */ /* Demo colors: #dd3333 (red); #a3b745 (green); #0983bf  (blue) */ }
+::-moz-selection           { background:#000; color: #fff; text-shadow: none; }
+::selection                { background:#000; color: #fff; text-shadow: none; }
+
+/* -- Header -- */
+html body                  { color: #414141; }
+/*
+body.home, 
+body.archive,
+body.category,
+body.search,
+body.tag                   { background-color: #FFF;}*/
+header                     { -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.1); box-shadow: 0 1px 5px rgba(0,0,0,0.1);}
+.main-menu, .stickytop     { background-color: #060606; -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.1); box-shadow: 0 1px 5px rgba(0,0,0,0.1); }
+
+/* - Full Width Page - */
+body.page-template-template-full-width .wrap-fullwidth  { background-color: #FFF; border-bottom: 1px solid #dfdfdf; border-top: 3px solid #43acc4; -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.1); box-shadow: 0 1px 4px rgba(0,0,0,0.1);}
+
+/* - Default Page - */
+.default-page-content      { background-color: #FFF; border-bottom: 1px solid #dfdfdf; border-top: 3px solid #43acc4; -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.1); box-shadow: 0 1px 4px rgba(0,0,0,0.1); }
+
+/* - Single-content - */
+.single-content article    { background-color: #FFF; }
+
+/*-----------------------------------------------------------------------------
+----------------------------- 2 - Header --------------------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Search Header (menu) -- */
+#searchform2 #s            { background-color: #FFF; color: #000 !important; }
+
+/* -- Live Search -- */
+ul.search_results li:hover { background-color: #f2f2f2 !important; }
+ul.search_results          { -moz-box-shadow: 0 0 5px #999 !important; -webkit-box-shadow: 0 0 5px #999 !important; box-shadow: 0 0 5px #999 !important;} 
+
+/* ##### Big Search ##### 
+######################### */
+.front-overlay-content #searchform2 .buttonicon:hover   { background-color: #060606; } 
+.front-overlay-wrap h1     { color: #fff;} 
+.front-overlay-wrap h1 span{  color: #43acc4; }
+/* -- Sub Header Search -- */
+.front-overlay-content #searchform2 .buttonicon   { background-color: #43acc4; color: #FFF; }
+.front-overlay-content #searchform2 #s            { background-color: #FFF; color: #000;}
+/* -- Sub Header Search ( Popular Words ) -- */
+.popular-words             { color: #FFF; }
+.popular-words a           { color: #FFF !important; border-bottom: 1px dotted #666; }
+.popular-words a:hover     { border-bottom: 1px solid #FFF;}
+/* -- Front-end Submission Form -- */
+input.ap-form-submit-button{ background-color: #ee9622; color: #FFF; }
+.front-overlay-wrap        { background-color: rgba(000, 0, 0, 0.2);}
+/* -- Categories in 4 columns -- */
+ul.cat-4cols li a { color: #FFF;}
+ul.cat-4cols li { color: #43acc4; } 
+
+/* ##### Featured Articles 2 ##### 
+############################### */
+.featured-articles-overlay-content h1     { color: #FFF;} 
+.featured-articles-overlay-content h1 span{  color: #FFF; }
+.featured-articles-overlay-wrap        { background-color: #0e0e0e; }
+ul#featured-articles li:hover h2,
+ul#featured-articles li a h2 { color: #FFF;}
+ul#featured-articles div.home10-thumb { background-color: #FFF; border: 1px solid #dfdfdf; -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.1); box-shadow: 0 1px 4px rgba(0,0,0,0.1); }
+ul#featured-articles li .an-display-time  { color: #43acc4;}
+/* - Like & unlike - */
+ul#featured-articles li .home-data      { background-color: #FFF; -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.1); box-shadow: 0 1px 4px rgba(0,0,0,0.1);}
+
+
+/* -- Top Header Menu -- */
+.nav-showcase_wp ul li span.arrow { color: #FFF;}
+.nav-showcase_wp ul li.current_page_item > a, 
+.nav-showcase_wp ul li.current-menu-ancestor > a, 
+.nav-showcase_wp ul li.current-menu-item > a, 
+.nav-showcase_wp ul li.current-menu-parent > a { color: #FFF; background-color: #43acc4; }
+.nav-showcase_wp ul li ul li.current_page_item > a, 
+.nav-showcase_wp ul li ul li.current-menu-ancestor > a, 
+.nav-showcase_wp ul li ul li.current-menu-item > a, 
+.nav-showcase_wp ul li ul li.current-menu-parent > a { color: #fff; background-color: #060606; -moz-box-shadow: 0 0px 0px rgba(0,0,0,0.2) !important; -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0.2) !important; box-shadow: 0 0px 0px rgba(0,0,0,0.2) !important;}
+/*Top level menu link items style*/
+.nav-showcase_wp ul li a { color: #fff; }
+.nav-showcase_wp ul li:hover a { }
+/*1st sub level menu*/
+.nav-showcase_wp ul li ul { background: #060606;}
+/* Sub level menu links style */
+.nav-showcase_wp ul li ul li a { color:#fff; border: none; }
+.nav-showcase_wp ul li ul li:hover { color: #fff;}
+.nav-showcase_wp ul li ul li:hover a { background-color: #060606; color: #fff;}
+.nav-showcase_wp ul li ul li:hover a:hover {  color: #FFF;}
+/* -- Responsive Menu -- */
+.nav-showcase_wp .nav-bars { color: #FFF; }
+.nav-showcase_wp .nav-icon { color: #F00 !important;}
+.nav-showcase_wp.mobile ul { background-color: #060606; }
+
+/* -- Top social icons -- */
+.top-social li a            { color: #43acc4;}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 3 - Home Content --------------------------------
+-----------------------------------------------------------------------------*/
+
+/* ##### Modern Articles ############# 
+################################### */
+ul.modern-articles li    { background-color: #FFF; border-bottom: 1px solid #dfdfdf; border-top: 3px solid #43acc4; -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.1); box-shadow: 0 1px 4px rgba(0,0,0,0.1);}          
+ul.modern-articles li .box-image   { /* background-color: #f6f7f9; */ }
+ul.modern-articles li span.meta-art a { color: #43acc4;}
+ul.modern-articles li p  { color: #888; }
+ul.modern-articles li .sticky-art i { color: #43acc4;} 
+ul.modern-articles li:hover h2 { color: #43acc4;}
+/* -- Sticky Posts style -- */
+ul.modern-articles li.sticky  {  background-color: rgba(67, 172, 196, 0.1); }
+ul.modern-articles li.sticky .home-meta { border-top: 1px solid rgba(223, 223, 223, 0.3); }
+/* - Meta - */
+ul.modern-articles li .home-meta { border-top: 1px solid #f1f1f1; }
+ul.modern-articles li .an-display-time  { color: #43acc4;}
+/* - Like & unlike - */
+.thumbs-rating-already-voted   { background-color: #FFF !important; }
+.thumbs-rating-container .thumbs-rating-up  { color: #6ecb0a; }
+.thumbs-rating-container .thumbs-rating-down{ color: #fe6969; } 
+
+/* ###### Home 4 ###### 
+################################### */
+ul.home4 li          { background-color: #FFF;}
+ul.home4 li a.home-button { background-color: #80b536; color: #FFF; border-bottom: 2px solid #6d9a2e;}
+ul.home4 li:hover h2 { color: #43acc4;}
+
+/* ###### Home 5 ###### 
+################################### */
+ul.home5 li          { background-color: #FFF; border-bottom: 1px solid #dfdfdf; -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.1); box-shadow: 0 1px 4px rgba(0,0,0,0.1); }
+ul.home5 li:hover h2 { color: #43acc4;}
+
+/* ###### Home 9 ###### 
+################################### */
+ul.home9 li:hover h2 { color: #43acc4;}
+ul.home9 li .an-display-time  { color: #43acc4;}
+/* - Like & unlike - */
+ul.home9 li .home-data      { background-color: #FFF; -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.1); box-shadow: 0 1px 4px rgba(0,0,0,0.1);}
+
+/* ###### Home 10 ###### 
+################################### */
+ul#home10 div.home10-thumb { background-color: #FFF; border: 1px solid #dfdfdf; -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.1); box-shadow: 0 1px 4px rgba(0,0,0,0.1); }
+
+/* -- Pagination -- */
+.wp-pagenavi a, .wp-pagenavi span { background-color: #FFF; color: #43acc4;}
+.wp-pagenavi a:hover { color: #fff !important; background-color: #43acc4;}
+.wp-pagenavi span.current { background-color: #43acc4; color: #fff !important; }
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 4 - Entry Content -------------------------------
+-----------------------------------------------------------------------------*/
+
+/* - title - */
+h1.article-title           { color: #000; }
+h1.page-title              { color: #000; border-bottom: 1px solid #f1f1f1; }
+
+/* - featured img / videos - */
+.single-content article    { border-bottom: 1px solid #dfdfdf; border-top: 3px solid #43acc4; -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.1); box-shadow: 0 1px 4px rgba(0,0,0,0.1); }
+.media-single-content div.meta-art { color: #43acc4; border-top: 1px solid #f1f1f1; }
+.media-single-content div.meta-art a { color: #43acc4; }
+
+/* -- Buttons  -- */
+.entry-buttons a.button       { color: #FFF;}
+.entry-buttons .red           { background-color: #fd0005;}
+.entry-buttons .black         { background-color: #060606;}
+.entry-buttons .blue          { background-color: #43acc4;}
+.entry-buttons .green         { background-color: #6ecb0a;}
+.entry-buttons span           { color: #43acc4;}
+
+/* -- Entry content style -- */
+.entry p          { color: #3E4042; }
+.entry p a        { color: #43acc4; }
+.entry p a:hover  { color: #000; }
+
+/* -- Entry excerpt -- */
+div.entry-excerpt p        { color: #43acc4;}
+
+/* -- blockquote -- */
+blockquote p               { color: #43acc4; }
+blockquote p:hover         { color: #aaa;}
+
+/* -- Responsive Images -- */
+.wp-caption-text           { color: #888;}
+.entry .wp-caption-text a  { color: #000 !important; }
+.wp-caption-text a:hover   { color: #000 !important; }
+
+/* -- Pagination entry articles -- */
+.my-paginated-posts span   { background-color: #43acc4; color: #FFF;}
+.my-paginated-posts p a    { background-color: #000; color:#fff !important;}
+.my-paginated-posts p a:hover { background-color: #000 !important; color:#fff !important; }
+
+/* -- About author -- */
+.author-info p             { color: #3E4042; }
+.author-info a.author-link         { color: #43acc4;}
+ul.author-social-top li a i        { color: #FFF; }
+ul.author-social-top li.facebook a { background-color: #3b59b6;} 
+ul.author-social-top li.twitter a  { background-color: #40a4ff;} 
+ul.author-social-top li.google a   { background-color: #d34836;} 
+
+/* -- Tabs -- */
+#tabs_content_container    { background-color: #FFF;}
+#tabs_container            { }
+#tabs li a                 { background-color: #060606; color: #FFF; }
+#tabs li a:hover           { color: #FFF !important;}
+#tabs li.active a,
+#tabs li.active a:hover    { color: #FFF !important; background-color: #43acc4; -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.1); box-shadow: 0 1px 5px rgba(0,0,0,0.1);  }
+#tabs_content_container    { border-bottom: 1px solid #dfdfdf; border-top: 3px solid #43acc4; -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.1); box-shadow: 0 1px 4px rgba(0,0,0,0.1); }
+
+/* -- Tags and Cateogies in tabs -- */
+.ct-size a                 { background: #f5f5f5 !important; }
+
+/* -- Index author / search / categories and tags title -- */
+h3.index-title  { color: #FFF !important; background-color: #43acc4; }
+
+/*-----------------------------------------------------------------------------
+----------------------------- 5 - Sidebar & Widgets ---------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Sidebar -- */
+.widget-title    { background-color: #43acc4; }
+.widget-title h3 { color: #FFF; }
+footer .widget-title h3 { color: #000;}
+
+/* -- Article widget -- */
+ul.article_list            { border-top: 1px solid #f1f1f1; background-color: #FFF; }
+ul.article_list li         { border-bottom: 1px solid #dfdfdf; -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.1); box-shadow: 0 1px 2px rgba(0,0,0,0.1); }
+ul.article_list li .author-il div.link-author a { color: #000; border-bottom: 1px solid #ffd800;}
+ul.article_list li .author-il div.time-article a { color: #000; border-bottom: 1px solid #ffd800;}
+ul.article_list li .no-image   { background-color: #f6f7f9; }
+ul.article_list li .an-display-time  { color: #43acc4;}
+ul.article_list li .an-display-time span a { color: #43acc4; }
+ul.article_list li:hover h3 { color: #43acc4;}
+
+/* -- Banner widget 300px text -- */
+.text-300         { border: 1px solid #f1f1f1;  background-color: #FFF; }
+.text-300 h3      { color: #43acc4;}
+.text-300 a.button       { color: #FFF !important; }
+.text-300 .blue          { background-color: #43acc4;}
+.text-300 .black         { background-color: #000;}
+.text-300 a.button:hover { opacity: 0.9; color: #FFF !important; }
+
+/* -- Widget RSS -- */
+.widget_rss h3 a         { color: #222;}
+.widget_rss li { border-bottom: 1px solid rgba(241, 241, 241, .8); }
+.widget_rss li .rss-date { color: #FFF; background-color: #fe9900; }
+.widget_rss li:before { color: #fe9900; }
+h3 a.rsswidget      { color: #FFF !important;}
+
+/* -- Default Tags -- */
+div.tagcloud          { border-top: 1px solid #f1f1f1; background-color: #FFF;}
+div.tagcloud a:hover  { }
+div.tagcloud a        { border-bottom: 1px solid #dfdfdf; -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.1); box-shadow: 0 1px 2px rgba(0,0,0,0.1);  }
+div.tagcloud span     { color: #43acc4; }
+
+/* -- Default Widget Select -- */
+div.widget_archive select, div.widget_categories select { border-radius: 3px; border:1px solid #d5d6d8; color:#999; }
+
+/* -- Default Search -- */
+div.widget_search #searchform2 .buttonicon   { background-color: #43acc4;}
+div.widget_search #searchform2 #s { background-color: #FFF; }
+
+/* -- Recent Entries -- */
+.widget_recent_entries li { border-bottom: 1px solid #f0eee9;}
+
+/* -- Recent Comments -- */
+.widget_recent_comments li { border-bottom: 1px solid #f0eee9; }
+.widget_recent_comments li span.comment-author-link  { color: #000;}
+.widget_recent_comments li a.url { color: #000;}
+.widget_recent_comments li a { color: #43acc4;}
+.widget_recent_comments li a:hover { color: #000;}
+
+/* -- Archives and Nav menu widget -- */
+.widget_nav_menu li { border-bottom: 1px solid #f0eee9;}
+.widget_archive li  { border-bottom: 1px solid #f0eee9;}
+
+/* -- Meta and Pages widget -- */
+.widget_pages li, .widget_meta li { border-bottom: 1px solid #f0eee9;}
+
+/* -- Categories -- */
+.widget_categories li { border-bottom: 1px solid #f0eee9; }
+.widget_categories li a { color: #43acc4;}
+.widget_categories li a:hover { color: #000;}
+
+/* -- Calendar -- */ 
+#wp-calendar tbody td#today { background-color: #000; color: #FFF;}
+#wp-calendar tbody td#today a { color: #FFF !important;}
+#wp-calendar caption { color: #333; }
+#wp-calendar tbody { background: #fff; }
+#wp-calendar tbody td { background: #fff; border: 1px solid #f5f5f5;}
+#wp-calendar tbody td:hover { background: #fff; }
+#wp-calendar tbody td a { color: #222; }
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 6 - Comments Form -------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Comments -- */
+.comments-title               { background-color: #43acc4; color: #FFF;}
+ul.comment li                 { background-color: #FFF; border-top: 1px solid #f1f1f1; border-bottom: 1px solid #dfdfdf; -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.1); box-shadow: 0 1px 4px rgba(0,0,0,0.1);}
+ul.comment                    { border-top: 3px solid #43acc4;}
+ul.comment li ul.children li  { -moz-box-shadow: none; box-shadow: none; -webkit-box-shadow: none;}
+ul.comment li a               { color: #43acc4; }
+ul.comment li a:hover         { text-decoration: underline;}
+.comments h3.comment-reply-title  { color: #FFF !important; background-color: #43acc4; }
+.comments h3.comment-reply-title a { color: #FFF; }
+.comments h3.comment-reply-title a#cancel-comment-reply-link { color: #F00; }
+
+/* -- comment Form -- */
+#commentform #author, #email, #url  { border-left: 3px solid #43acc4; border-top: 1px solid #f1f1f1; border-bottom: 1px solid #dfdfdf; -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.1); box-shadow: 0 1px 4px rgba(0,0,0,0.1); color:#333; }	
+#commentform textarea         { border-left: 3px solid #43acc4; border-top: 1px solid #f1f1f1; border-bottom: 1px solid #dfdfdf; -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.1); box-shadow: 0 1px 4px rgba(0,0,0,0.1); color:#333;} 
+#commentform #submit          { background-color: #060606; color: #FFF; border: 1px solid #000;}
+#commentform label span       { color:#F00;}
+#commentform span             { color:#F00;} 
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 7 - Contact Form --------------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Contact Form 7 Plugin -- */
+form.wpcf7-form input.wpcf7-submit    { background-color: #000; color: #FFF; border: none; }
+form.wpcf7-form .wpcf7-validation-errors { color: red;}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 8 - Custom Pages --------------------------------
+-----------------------------------------------------------------------------*/
+ 
+
+/*-----------------------------------------------------------------------------
+------------------------------ 9 - Footer -------------------------------------
+-----------------------------------------------------------------------------*/
+
+footer                        { background-color: #0e0e0e;}
+.social-section               { background-color: #43acc4; -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.1); box-shadow: 0 1px 5px rgba(0,0,0,0.1);}
+.wrap-footer                  { background-color: #FFF; border-top: 1px solid #f5f5f5;}
+.footer-navigation            { background-color: #060606;}
+
+/* -- Footer Widget title -- */
+footer .widget-title          { background-color: #43acc4; }
+footer .widget-title h3       { color: #FFF; } 
+
+/* -- widgets -- */
+footer .wrap-middle a         { color: #FFF;}
+
+/* -- footer links -- */
+ul.footer-links li a          { color: #999; }
+ul.footer-links li a:hover    { color: #FFF;}
+
+/* -- Company info -- */
+.company-info                 { background-color: #060606; color: #FFF; }
+footer .wrap-middle .company-info a { color: #43acc4; border-bottom: 1px solid #43acc4; }
+
+/* -- Footer Articles -- */
+ul.footer-posts li a h4       { color: #43acc4; }
+
+/* - Copyright - */
+.copyright                    { color: #555; }
+footer .copyright a           { color: #43acc4;}
+.copyright_right              { color: #555; }
+footer .copyright_right a     { color: #43acc4;}
+ 
+/* -- Footer Social Icons -- */
+ul.footer-social li a         { color: #FFF; }
+ul.footer-social li a:hover   { color: #FFF !important; }
+
+/* -- Back to Top -- */
+#back-top span                { background-color: #43acc4;}
