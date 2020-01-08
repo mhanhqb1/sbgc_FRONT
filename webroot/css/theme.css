@@ -5325,12 +5325,12 @@ ul.sr-item-attr > li a:hover {
 	transition: all 0.3s ease-in-out;
 }
 .owl-carousel .owl-nav button.owl-prev {
-	background-image: url(../vendor/owl-carousel/img/arrow-left-light.png);
+	background-image: url(../images/arrow-left-light.png);
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .owl-carousel .owl-nav button.owl-next {
-	background-image: url(../vendor/owl-carousel/img/arrow-right-light.png);
+	background-image: url(../images/arrow-right-light.png);
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -5382,10 +5382,10 @@ ul.sr-item-attr > li a:hover {
 	background-color: #FFF;
 }
 .nav-light .owl-nav button.owl-prev {
-	background-image: url(../vendor/owl-carousel/img/arrow-left-dark.png);
+	background-image: url(../images/arrow-left-dark.png);
 }
 .nav-light .owl-nav button.owl-next {
-	background-image: url(../vendor/owl-carousel/img/arrow-right-dark.png);
+	background-image: url(../images/arrow-right-dark.png);
 }
 .nav-light .owl-nav button.owl-prev:hover, .nav-light .owl-nav button.owl-next:hover,
 .nav-light.nav-bottom-right .owl-nav button.owl-prev:hover, .nav-light.nav-bottom-right .owl-nav button.owl-next:hover {
@@ -5496,16 +5496,16 @@ ul.sr-item-attr > li a:hover {
 	color: #A4AAAD;
 }
 .nav-outside-top .owl-nav button.owl-prev {
-	background-image: url(../vendor/owl-carousel/img/arrow-left-dark.png);
+	background-image: url(../images/arrow-left-dark.png);
 }
 .nav-outside-top .owl-nav button.owl-next {
-	background-image: url(../vendor/owl-carousel/img/arrow-right-dark.png);
+	background-image: url(../images/arrow-right-dark.png);
 }
 .nav-outside-top .owl-nav button.owl-prev:hover {
-	background-image: url(../vendor/owl-carousel/img/arrow-left-light.png);
+	background-image: url(../images/arrow-left-light.png);
 }
 .nav-outside-top .owl-nav button.owl-next:hover {
-	background-image: url(../vendor/owl-carousel/img/arrow-right-light.png);
+	background-image: url(../images/arrow-right-light.png);
 }
 
 .nav-outside-top:hover .owl-nav button.owl-prev {
